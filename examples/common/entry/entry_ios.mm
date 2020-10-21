@@ -38,7 +38,7 @@ namespace entry
 	{
 		Context(uint32_t _width, uint32_t _height)
 		{
-			const char* const argv[1] = { "ios" };
+			static const char* const argv[1] = { "ios" };
 			m_mte.m_argc = 1;
 			m_mte.m_argv = argv;
 
